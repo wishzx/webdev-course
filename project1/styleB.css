@@ -1,0 +1,43 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  font-family: Tahoma;
+  font-size: 40px;
+  gap: 10px;
+}
+
+.letter:hover {
+  background-color: yellow;
+  cursor: grab;
+  color: goldenrod
+}
+
+.letter {
+  height: 150px;
+  width: 100px;
+  border-color: #D0D0FF;
+  border-left-style: dotted;
+  border-left-width: 10px;
+  background-color: #eeeff2;
+  padding: 10px;
+  flex-shrink: 0;
+}
+
+.last {
+  align-self: flex-end;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}

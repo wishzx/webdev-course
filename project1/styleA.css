@@ -1,0 +1,46 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: Tahoma;
+  height: 100%;
+  font-size: 40px;
+  white-space: nowrap;
+  justify-content: space-between
+}
+
+.letter {
+  flex-shrink: 0;
+  height: 100px;
+  width: 100px;
+  border-top: 1px;
+  border-color: #7676ba;
+  border-top-style: solid;
+}
+
+.even {
+  background-color: #eeeff2;
+}
+
+.odd {
+  background-color: #dfe1e7;
+}
+
+.last {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #687291;
+  border: 4px;
+  border-color: #000000;
+  border-style: solid;
+}

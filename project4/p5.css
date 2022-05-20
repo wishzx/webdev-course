@@ -1,0 +1,21 @@
+.menu-bar-items {
+    background-color: black;
+    padding: 0vw;
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+    border-radius: 7px;
+    border-spacing: 0px;
+    display: flex;
+    align-items: stretch;
+    flex-direction: row nowrap;
+    justify-content: left;
+    text-align: center;
+    font-family: sans-serif;
+    background: wheat;
+}
+
+.menu-bar-items>li {
+    list-style-type: none;
+    padding: 3vw;
+    text-decoration: none;
+}
